@@ -13,6 +13,9 @@ def index_view(request):
             "location":"Bojnourd, Iran",
             "languages":"Persian, English",
             "email":"mjz589.2018@gmail.com",
-            "phone":"+989013023089"
+            "phone":"+989013023089",
+            "ML_project":"https://github.com/mjz589/Machine-Learning-first-project",
+            "first_site":"https://github.com/mjz589/My-First-Site",
+            "personal_site":"https://github.com/mjz589/Personal-Site",
             }
     return render(request, 'index.html', context)

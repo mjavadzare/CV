@@ -6,9 +6,23 @@ body {
     height: 100%
 }
 
-a {
-    text-decoration: none
+a:link {
+	color: #d8d8d8;
+	
 }
+a:visited {
+	color: #d8d8d8;
+  }
+  
+  /* mouse over link */
+  a:hover {
+	color: #c6c6c6;
+  }
+  
+  /* selected link */
+  a:active {
+	color: rgb(144, 144, 255);
+  }
 
 div {
     box-sizing: border-box

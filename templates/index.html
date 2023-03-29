@@ -1,6 +1,7 @@
 {% load static %}
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<title>Resume</title>
@@ -9,23 +10,30 @@
 	<link rel="stylesheet" type="text/css" href="{% static 'lib/fontawesome/css/all.css ' %}" />
 	<link rel="stylesheet" type="text/css" href="{% static 'lib/krub/krub-font.css ' %}" />
 </head>
+
 <body>
 
 	<div class="container">
 		<div class="left-container">
 			<div class="avatar">
 				<a href="#" title="avatar">
-					<img src="{% static 'img/avatar.png' %}" alt="avatar" title="avatar" style="border-radius: 5%; border-bottom-right-radius: 0%;" />
+					<img src="{% static 'img/avatar.png' %}" alt="avatar" title="avatar"
+						style="border-radius: 5%; border-bottom-right-radius: 0%;" />
 				</a>
 			</div>
 			<h4 class="krub-regular">Social</h4>
 			<div class="social">
 				<ul class="social">
-					<li><a target="_blank" href="#" title="Website" rel="nofollow"><span class="fas fa-1x fa-globe"></span></a></li>
-					<li><a target="_blank" href="https://github.com/mjz589/" title="Github" rel="nofollow"><span class="fab fa-1x fa-github"></span></a></li>
-					<li><a target="_blank" href="#" title="Twitter" rel="nofollow"><span class="fab fa-1x fa-twitter"></span></a></li>
-					<li><a target="_blank" href="https://t.me/www_Mohammad" title="Telegram" rel="nofollow"><span class="fab fa-1x fa-telegram"></span></a></li>
-					<li><a target="_blank" href="https://www.instagram.com/mmd.javad__/" title="Instagram" rel="nofollow"><span class="fab fa-1x fa-instagram"></span></a></li>
+					<li><a target="_blank" href="#" title="Website" rel="nofollow"><span
+								class="fas fa-1x fa-globe"></span></a></li>
+					<li><a target="_blank" href="https://github.com/mjz589/" title="Github" rel="nofollow"><span
+								class="fab fa-1x fa-github"></span></a></li>
+					<li><a target="_blank" href="#" title="Twitter" rel="nofollow"><span
+								class="fab fa-1x fa-twitter"></span></a></li>
+					<li><a target="_blank" href="https://t.me/www_Mohammad" title="Telegram" rel="nofollow"><span
+								class="fab fa-1x fa-telegram"></span></a></li>
+					<li><a target="_blank" href="https://www.instagram.com/mmd.javad__/" title="Instagram"
+							rel="nofollow"><span class="fab fa-1x fa-instagram"></span></a></li>
 				</ul>
 			</div>
 		</div>
@@ -38,18 +46,48 @@
 				<p>&nbsp;</p>
 				<p>Personal Detail :</p>
 				<ul>
-					<li><p><span class="fas fa-1x fa-code"></span> {{skills}} </p></li>
-					<li><p><span class="fas fa-1x fa-book"></span> {{educations}} </p></li>
-					<li><p><span class="fas fa-1x fa-birthday-cake"></span> {{birthday}} </p></li>
-					<li><p><span class="fas fa-1x fa-map-pin"></span>  {{location}}  </p></li>
-					<li><p><span class="fas fa-1x fa-language"></span> {{languages}} </p></li>
-					<li><p><span class="fas fa-1x fa-envelope"></span> {{email}} </p></li>
-					<li><p><span class="fas fa-1x fa-phone"></span> {{phone}} </p></li>
+					<li>
+						<p><span class="fas fa-1x fa-code"></span> {{skills}} </p>
+					</li>
+					<li>
+						<p><span class="fas fa-1x fa-book"></span> {{educations}} </p>
+					</li>
+					<li>
+						<p><span class="fas fa-1x fa-birthday-cake"></span> {{birthday}} </p>
+					</li>
+					<li>
+						<p><span class="fas fa-1x fa-map-pin"></span> {{location}} </p>
+					</li>
+					<li>
+						<p><span class="fas fa-1x fa-language"></span> {{languages}} </p>
+					</li>
+					<li>
+						<p><span class="fas fa-1x fa-envelope"></span> {{email}} </p>
+					</li>
+					<li>
+						<p><span class="fas fa-1x fa-phone"></span> {{phone}} </p>
+					</li>
 				</ul>
 				<p>&nbsp;</p>
 				<p>Work Experience :</p>
 				<ul>
-					<li><p><span class="fas fa-1x fa-newspaper"> created and developed a personal site</span></p></li>
+					<li>
+						<p><a href="{{ML_project}}" title="GitHub link"><span class="fas fa-1x fa-newspaper"> Coded a
+									program that fetch data from adak.shop and through Machine Learning guess what the
+									price of a customized Laptop is</span></a></p>
+					</li>
+					<li>
+						<p><a href="{{first_site}}" title="GitHub link"><span class="fas fa-1x fa-newspaper"> Developed
+									site with a blog section</span></a></p>
+					</li>
+					<li>
+					</li>
+					<li>
+						<p><a href="{{personal_site}}" title="GitHub link"><span class="fas fa-1x fa-newspaper">
+									Developed
+									my personal site</span></a></p>
+					</li>
+
 				</ul>
 				<p class="copyright">&copy;2023, Developed by Mikey</p>
 			</div>
@@ -58,4 +96,5 @@
 	</div>
 
 </body>
+
 </html>
