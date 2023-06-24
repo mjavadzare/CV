@@ -17,5 +17,7 @@ def index_view(request):
             "ML_project":"https://github.com/mjz589/Machine-Learning-first-project",
             "first_site":"https://github.com/mjz589/My-First-Site",
             "personal_site":"https://github.com/mjz589/Personal-Site",
+            "Agriculture_Dashboard":"https://github.com/mjz589/Agriculture-Dashboard",
+            "django_42":"https://github.com/mjz589/First-Site-with-Django-4.2",
             }
     return render(request, 'index.html', context)
