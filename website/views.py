@@ -14,10 +14,10 @@ def index_view(request):
             "languages":"Persian, English",
             "email":"mjz589.2018@gmail.com",
             "phone":"+989013023089",
-            "ML_project":"https://github.com/mjz589/Machine-Learning-first-project",
-            "first_site":"https://github.com/mjz589/My-First-Site",
-            "personal_site":"https://github.com/mjz589/Personal-Site",
-            "Agriculture_Dashboard":"https://github.com/mjz589/Agriculture-Dashboard",
-            "django_42":"https://github.com/mjz589/First-Site-with-Django-4.2",
+            "ML_project":"https://github.com/mjavadzare/Machine-Learning-first-project",
+            "first_site":"https://github.com/mjavadzare/My-First-Site",
+            "personal_site":"https://github.com/mjavadzare/Personal-Site",
+            "Agriculture_Dashboard":"https://github.com/mjavadzare/Agriculture-Dashboard",
+            "django_42":"https://github.com/mjavadzare/First-Site-with-Django-4.2",
             }
     return render(request, 'index.html', context)
